@@ -41,6 +41,7 @@ const Pagination = ({
       <select
         value={packetSize}
         onChange={(event) => {
+          updatePage(0)
           updatePacketSize(+event.target.value);
         }}
       >

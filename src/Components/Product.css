@@ -1,0 +1,15 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  margin: 4px;
+  align-items: center;
+}
+.item__image {
+  height: 200px;
+  width: 250px;
+}
+.item__name {
+}
